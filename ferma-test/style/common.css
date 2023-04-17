@@ -1,0 +1,28 @@
+/* common */
+
+.link-reset {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Montserrat;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    padding: 76px 110px;
+}
+
+._container {
+    max-width: 1770px;
+    box-sizing: content-box;
+    margin: 0 auto;
+}

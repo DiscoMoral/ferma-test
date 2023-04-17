@@ -1,0 +1,136 @@
+@import url(../style/common.css);
+@import url(../style/colors.css);
+@import url(../style/media.css);
+
+/* style */
+
+.wrapper {
+    background: radial-gradient(circle at 10% top, rgb(237, 234, 244), rgba(63, 178, 180, 0.308), #d725d749, #39ddf3c0);
+    backdrop-filter: blur(6px);
+}
+
+.container__top {
+    margin-bottom: 72px;
+}
+
+.left__header {
+    font-weight: 700;
+    font-family: Montserrat;
+    font-size: 48px;
+    line-height: 45px;
+    color: var(--grey-color);
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+.left__list {
+    padding: 0;
+    padding-left: 22px;
+}
+
+.left__item {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: var(--grey-color);
+}
+
+.left__list {
+    margin-bottom: 42px;
+}
+
+.left__link {
+    margin-bottom: 16px;
+}
+
+.left__text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgba(31, 41, 74, 0.5);
+    margin: 0;
+}
+
+.middle__left {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 45%;
+    margin-right: 100px;
+}
+
+.middle__right {
+    display: flex;
+    flex: 0 1 50%;
+    position: relative;
+}
+
+.container__middle {
+    margin-bottom: 170px;
+}
+
+.bottom__left {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: var(--grey-color);
+}
+
+.container__bottom {
+    justify-content: space-between;
+}
+
+.right__svg {
+    margin-right: 16px;
+}
+
+
+/*the phone and ellipsis*/
+
+.phone {
+    position: absolute;
+    z-index: 10;
+    top: -53px;
+    left: -60px;
+}
+
+.pink {
+    position: absolute;
+    z-index: -30;
+    top: 12px;
+    left: 190px;
+}
+
+.green {
+    position: absolute;
+    z-index: -20;
+    top: 100px;
+    left: 150px;
+}
+
+.blue {
+    position: absolute;
+    z-index: -10;
+    top: 100px;
+    left: 60px;
+}
+
+.pink-small {
+    position: absolute;
+    z-index: -30;
+    top: 585px;
+    left: 520px;
+}
+
+.green-small {
+    position: absolute;
+    z-index: -20;
+    top: 306px;
+    left: -10px;
+}
+
+.blue-small {
+    position: absolute;
+    z-index: -10;
+    top: -55px;
+    left: 470px;
+}
